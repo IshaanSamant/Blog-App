@@ -1,4 +1,12 @@
 # Blog-App
 A blogging application created using ruby on rails , this application allows users to create accounts and each account can have it's own set of blogs.
-This app run on ruby on rails , the database used is mysql and the front end is written in angularjs.
+Framework - Ruby on Rails
+Database - MySQL
+Front-end - AngularJS
+
+# Instructions
+To use this app you require ruby on rails and MySQL installed on your system, after connect the ruby on rails to MySQL and then replace the app and public folders in 
+your own rails application.
+
+# Sample Page
 ![](/images/blog.png)
