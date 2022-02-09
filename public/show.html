@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+<center><h3>Welcome {{username}}!</h3></center>
+<center>
+	<ul>
+     <li ng-repeat="x in blog">
+         <h3>{{x.title}}</h3>
+         <h5>{{x.body}}</h5>
+         <a href="" ng-click="SuperFunction(x.id)">Edit</a>
+         <br>
+     </li>
+ </ul></center>
+ <center><a href="#!blog">Create new post</a></center>
+ <center><a href="#!edit">Edit Credentials</a></center>
+<center><button ng-click='Destroy()' style='margin-top:15px' class="btn btn-outline-danger">Delete User</button></center>
+<center><button ng-click='Logout()' style='margin-top:15px' class="btn btn-outline-primary">Logout</button></center>
+</body>
+</html>

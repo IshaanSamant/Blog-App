@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+<center><form  action="javascript:void(0);">
+              <h2>Edit User Credentials</h2>
+                <div class="col-sm-6">
+                    <label>Name</label> <br>
+                    <input type="text" ng-model="username" placeholder="Name" class="form-control" required="required"> 
+                </div>
+                <div class="col-sm-6">
+                    <label>Current Password</label> <br>
+                    <input type="password" ng-model="check" class="form-control" required="required">
+                    <label>New Passowrd</label><br>
+                    <input type="password" ng-model="pass" class="form-control" required="required"> 
+                    <label>Confirm New Password</label>
+                    <input type="password" ng-model="pass1" class="form-control" required="required"> 
+                </div>
+               <button ng-click='Change()' style='margin-top:15px' class="btn btn-outline-primary">Edit Credentials</button>
+
+            </form></center>
+            <center>{{message}}</center>
+</body>
+</html>
