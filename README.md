@@ -1,7 +1,7 @@
 # Blog-App
-A blogging application created using ruby on rails , this application allows users to create accounts and each account can have it's own set of blogs.
-Framework - Ruby on Rails
-Database - MySQL
+A blogging application created using ruby on rails , this application allows users to create accounts and each account can have it's own set of blogs. \n
+Framework - Ruby on Rails\n
+Database - MySQL\n
 Front-end - AngularJS
 
 # Instructions
